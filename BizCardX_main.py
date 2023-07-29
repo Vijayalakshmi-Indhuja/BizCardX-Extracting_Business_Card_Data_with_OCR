@@ -43,7 +43,7 @@ reader = easyocr.Reader(['en'])
 # CONNECTING WITH MYSQL DATABASE
 mydb = pymysql.connect(host="localhost",
                    user="root",
-                   password="Tarun_3872",
+                   password="your_password",
                    database= "bizcardx_db",
                    )
 mycursor = mydb.cursor()
